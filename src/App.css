@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: black;
   color: white;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  color: black;
+  background-color: white;
+  gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links, li  {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+
+  color: black;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0;
+  gap: 2rem;
+}
+
+.site-logo {
+  margin-left: 3rem;
+  font-size: 1.3rem;
+  background-color: white;
+  color: black;
+}
+
+.login-button {
+  border-radius: 25%;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 20px;
+  background: #33406D;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+
+
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+  margin: 0;
+
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.mainContainerItemOne {
+  width: 45vw;
+  height: 30vh;
+}
+.mainContainerItemTwo {
+  width: 45vw;
+  height: 30vh;
+}
+.mainContainerItemThree{
+  width: 100vw;
+  height: 30vh;
+}
+.mainContainerItemFour{
+  width: 30vw;
+  height: 30vh;
+}
+.mainContainerItemFive{
+  width: 30vw;
+  height: 30vh;
+}
+.mainContainerItemSix{
+  width: 30vw;
+  height: 30vh;
+}
+
+h1 {
+  margin: 0;
+  color: black;
 }
